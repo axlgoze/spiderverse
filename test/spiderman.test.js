@@ -1,6 +1,13 @@
-describre("Test suit Dummy Description", () => {
-	test('case 1 Dummy', () =>{
-		const resultOfSomething = 1+2
-		expect(resultOfSomething).toBe(18);
+describre("Unit test for Spiderman class", () => {
+	test('1) Create a spiderman object', () =>{
+		//here goes the code which we want to use
+		//instanciando objeto Spiderman -->
+		const andrewGarfield = new Spiderman("Spiderman Sony", 31, "Andrew Garfield", 2, "Sony")
+		//Expected validation
+		expect(andrewGarfiled.name).toBe("Spiderman Sony");
+		expect(andrewGarfiled.age).toBe(31);
+		expect(andrewGarfiled.playedBy).toBe("Andrew Garfield");
+		expect(andrewGarfiled.numberOfMovies).toBe(31);
+		expect(andrewGarfiled.cinemaStudio).toBe("Sony");
 	});
 })
