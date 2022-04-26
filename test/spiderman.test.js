@@ -5,10 +5,10 @@ describe("Unit test for Spiderman class", () => {
 		//instanciando objeto Spiderman -->
 		const andrewGarfield = new Spiderman("Spiderman Sony", 31, "Andrew Garfield", 2, "Sony")
 		//Expected validation
-		expect(andrewGarfiled.name).toBe("Spiderman Sony");
-		expect(andrewGarfiled.age).toBe(31);
-		expect(andrewGarfiled.playedBy).toBe("Andrew Garfield");
-		expect(andrewGarfiled.numberOfMovies).toBe(31);
-		expect(andrewGarfiled.cinemaStudio).toBe("Sony");
+		expect(andrewGarfield.name).toBe("Spiderman Sony");
+		expect(andrewGarfield.age).toBe(31);
+		expect(andrewGarfield.playedBy).toBe("Andrew Garfield");
+		expect(andrewGarfield.numberOfMovies).toBe(31);
+		expect(andrewGarfield.cinemaStudio).toBe("Sony");
 	});
 })
