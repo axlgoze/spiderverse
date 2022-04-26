@@ -8,7 +8,7 @@ class Spiderman{
 	}
 	getInfo(){
 		//metodo para obtener informacion
-		return `Hello, My name is ${this.name} from ${this.cinemaStudio}`
+		return `Hey, I'm ${this.playedBy} from ${this.cinemaStudio}`
 	}
 }
 
