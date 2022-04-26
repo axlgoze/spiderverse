@@ -7,3 +7,6 @@ class Spiderman{
 		this.cinemaStudio = cinemaStudio;
 	}
 }
+
+//exportando modulo
+module.exports = Spiderman
