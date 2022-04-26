@@ -1,4 +1,4 @@
-describre("Unit test for Spiderman class", () => {
+describe("Unit test for Spiderman class", () => {
 	test('1) Create a spiderman object', () =>{
 		//here goes the code which we want to use
 		//instanciando objeto Spiderman -->
