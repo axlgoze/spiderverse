@@ -6,6 +6,10 @@ class Spiderman{
 		this.numberOfMovies = numberOfMovies;
 		this.cinemaStudio = cinemaStudio;
 	}
+	tomHolland(message){
+		//metodo para obtener informacion
+		console.log(`Hello, My name is ${this.name} from ${this.cinemaStudio}`)
+	}
 }
 
 //exportando modulo
