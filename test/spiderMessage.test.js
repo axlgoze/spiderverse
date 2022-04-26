@@ -1,4 +1,4 @@
-import Spiderman = require('./../app/spiderman')
+const Spiderman = require('./../app/spiderman')
 
 describe("Unit Test for Holland method", () =>{
 	test('2) Use the method getInfo()', () =>{
