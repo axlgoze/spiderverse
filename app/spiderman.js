@@ -6,7 +6,7 @@ class Spiderman{
 		this.numberOfMovies = numberOfMovies;
 		this.cinemaStudio = cinemaStudio;
 	}
-	tomHolland(message){
+	getInfo(){
 		//metodo para obtener informacion
 		console.log(`Hello, My name is ${this.name} from ${this.cinemaStudio}`)
 	}
