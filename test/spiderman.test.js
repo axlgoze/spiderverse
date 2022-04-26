@@ -1,3 +1,4 @@
+const Spiderman=require('./../app/spiderman') //importando clase
 describe("Unit test for Spiderman class", () => {
 	test('1) Create a spiderman object', () =>{
 		//here goes the code which we want to use
